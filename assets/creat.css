@@ -1,0 +1,53 @@
+/* General Body Style */
+body {
+  font-family: "Inter", Arial, sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+}
+
+/* Form Style */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  border: none;
+  padding: 10px 20px;
+  font-size: 0.9rem;
+}
+
+.form-control:focus {
+  border: none;
+  box-shadow: 0 0 10px rgba(52, 144, 220, 0.4);
+}
+
+/* Button Style */
+.btn-primary {
+  background-color: #3490dc;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #2176bd;
+  transform: scale(1.02);
+}
+
+.btn-link {
+  color: #3490dc;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.btn-link:hover {
+  color: #2176bd;
+}
+
+/* Typography */
+h1 {
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
