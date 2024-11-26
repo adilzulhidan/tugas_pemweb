@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f9fa; /* Warna latar belakang */
+}
+.login-card {
+  border-radius: 15px; /* Membuat sudut kartu melengkung */
+  overflow: hidden;
+}
+.login-card h1 {
+  color: #007bff; /* Warna teks judul */
+  font-weight: bold;
+}
+.form-control {
+  border-radius: 10px; /* Membuat sudut input melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan pada input */
+}
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.6); /* Efek fokus */
+}
+.btn-primary {
+  border-radius: 10px; /* Membuat tombol lebih lembut */
+  font-weight: bold; /* Teks lebih tebal */
+  transition: all 0.3s ease-in-out; /* Efek transisi */
+}
+.btn-primary:hover {
+  background-color: #0056b3; /* Warna tombol saat hover */
+  transform: translateY(-2px); /* Efek mengangkat tombol */
+}
