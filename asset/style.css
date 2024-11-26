@@ -1,0 +1,165 @@
+.navbar {
+  background-color: #00a8e8;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #008cba;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #f8f9fa;
+}
+
+.header {
+  background-size: cover;
+  color: var(--secondary-color);
+  padding: 150px 20px;
+  text-align: left;
+  position: relative;
+}
+
+.header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.header p {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+.header .btn-primary {
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.header .btn-primary:hover {
+  background-color: #005f6b;
+}
+
+.header .img-fluid {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1.8s ease-in-out forwards;
+  animation-delay: 0.01s;
+}
+
+.header h1,
+.header p {
+  position: relative;
+  z-index: 1;
+}
+
+.btn-primary {
+  background-color: #00bfff;
+  border-color: #00bfff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e65c50;
+}
+
+.services .card {
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.services .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.services .card-title {
+  color: #343a40;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #00a8e8;
+  padding: 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #008cba;
+  box-shadow: 0 0 8px rgba(0, 168, 232, 0.4);
+}
+
+.btn-primary {
+  border-radius: 0.25rem;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: #f8f9fa;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #008cba;
+}
+
+.about h3 {
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #343a40;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #555;
+  text-align: justify;
+}
+
+.contact h5 {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.contact a {
+  color: #00a8e8;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
